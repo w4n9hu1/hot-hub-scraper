@@ -9,9 +9,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  scrape:
+  scraper:
     runs-on: ubuntu-latest
 
+    env:
+      WB_URL: https://s.weibo.com/top/summary?cate=realtimehot
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js
