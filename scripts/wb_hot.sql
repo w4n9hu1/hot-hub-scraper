@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS wb_hot (
+    id SERIAL PRIMARY KEY,
+    rank INT NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    hot INT NOT NULL,
+    tag VARCHAR(10),
+    icon VARCHAR(10),
+    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);
