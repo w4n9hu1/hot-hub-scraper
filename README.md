@@ -68,3 +68,5 @@ CREATE TABLE IF NOT EXISTS wb_hot (
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
+
+Updated at: xxxx_xx_xx
